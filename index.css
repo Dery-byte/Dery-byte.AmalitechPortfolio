@@ -119,13 +119,25 @@ header{
 }
 
 .image{
-    position: relative;
+    /* position: relative;
     margin: 500px;
     overflow-x: hidden;
-    top: -570px;
+    top: -600px; */
     /* margin-bottom: -1400px; */
-    /* max-width: 100%; */
-    height: auto;
+    /* max-width: 10%; */
+     /* width:20%;
+    height: 30px;  */
+}
+img.imagesb{
+    position: relative;
+    margin: 100px;
+    overflow-x: hidden;
+    top: -550px;
+    /* margin-bottom: -1400px; */
+    /* max-width: 10%; */
+    left: 850px;
+     width:800px;
+    height: 700px; 
 }
 .nav{
     padding: 2% 8%;
