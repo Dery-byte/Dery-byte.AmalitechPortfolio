@@ -120,16 +120,7 @@ header{
     display: none;
 }
 
-.image{
-    /* position: relative;
-    margin: 500px;
-    overflow-x: hidden;
-    top: -600px; */
-    /* margin-bottom: -1400px; */
-    /* max-width: 10%; */
-     /* width:20%;
-    height: 30px;  */
-}
+
 img.imagesb{
     position: relative;
     margin: 100px;
@@ -722,13 +713,29 @@ color: #FFA7C3;
         /* max-width: 100%; */
         /* height: auto; */
     }
-    .image{
-        overflow: hidden;
+    img.imagesb{
+        /* overflow: hidden;
         display: inline;
+        position: relative; 
+      top:-200px; 
+        left:200px;
+        bottom:;
+        width: 90px;
+        height: 100px; */
+
+        
+    }
+
+    img#image{
         position: relative;
-        /* margin: -12px 0px; */
-        top:-600px;
-        left:-180px;
+        /* margin: 100px; */
+        overflow-x: hidden;
+        top: -650px;
+        /* margin-bottom: -1400px; */
+        /* max-width: 10%; */
+        left: 230px;
+         width:650px;
+        height: 650px; 
     }
 
     .imageSmall{
