@@ -296,7 +296,7 @@ color: #13183F;
     border-radius: 15px;
 }
 .desincont{
-    margin: -15px 18px;
+    margin: -20px 10px;
 }
 
 .imgdesign{
@@ -323,7 +323,9 @@ border-radius: 15px;
     margin:30px 0px;
 }
 .photocont{
-    margin: -40px 0px;
+    /* margin: -40px 0px; */
+    margin: -75px 1px;
+
 }
 #getphoto{
     margin-bottom: 10px;
@@ -346,8 +348,8 @@ border-radius: 15px;
 }
 
 .cryptocontent{
-    margin: -50px 0px;
-    padding: 0px 20px;
+    margin: -75px 1px;
+    /* padding: 0px 20px; */
 }
 .business{
     width: 350px;
@@ -366,7 +368,7 @@ border-radius: 15px;
 
 }
 .busicont{
-    margin: -5px 0px;
+    margin: -40px 1px;
     padding: 0px 25px;
 }
 h2.skills{
