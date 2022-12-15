@@ -7,11 +7,57 @@
     font-size: 62.5%;
 }
 
+.logoimg{
+    width: 80px;
+    height: 20px;
+}
+.logofoot{
+    width: 80px;
+    height: 20px;
+}
+
+
+
+.header{
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #13183F; */
+    width: 100%;
+}
+
+.headerbotton {
+width: auto;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;    
+color:white;
+background-color: #13183F;
+border-radius: 28px;
+/* background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%); */
+padding: 12px 12px 12px 12px;
+}
+.headerbotton:hover{
+    background: #666CA3;
+    border-radius: 28px;
+}
+
+.skillsheader{
+width: 5.4px;
+height: 27.25px;
+left: 225.34px;
+top: 38.75px;    
+color: #13183F;
+font-size: 2.2rem;
+
+}
+
 html,
 body{
     /* font-family: 'Plus Jakarta Sans'; */
     font-style: normal;
-    background: #F2F2F2;
     overflow-x: hidden;
     width: 100%;
     /* height: 100%; */
@@ -32,19 +78,18 @@ img{
     height: auto;
 }
 
+
 .maxskill{
-    font-family: 'Plus Jakarta Sans';
+font-family: 'Plus Jakarta Sans';
 font-style: normal;
-font-weight: 800;
 font-size: 56px;
 line-height: 71px;
-
-/* 13183F */
-
 color: #13183F;
+/* font-weight: bold; */
 }
-
-
+h1.maxskill{
+    font-weight: 800;
+}
 .maxget{
     color: white;
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
@@ -53,7 +98,7 @@ padding: 12px 12px 12px 12px;
 margin:0px 0px;
 font-family: 'Plus Jakarta Sans';
 font-style: normal;
-font-weight: 700;
+font-weight: 800;
 font-size: 18px;
 line-height: 28px;
 /* identical to box height, or 156% */
@@ -91,7 +136,7 @@ border-radius: 28px;
     font-size: 16px;
     line-height: 28px;    
     color: white; 
-    background: #050b3d;
+    
     /* padding: 8px 8px 7px 7px; */
     padding: 12px 12px 12px 12px;
 
@@ -107,20 +152,24 @@ border-radius: 28px;
     color: #FFFFFF; 
     background: #666CA3;;
     padding: 8px 8px 7px 7px;
-border-radius: 28px;
-transition: .5s ease-in-out;
+    border-radius: 28px;
+    transition: .5s ease-in-out;
 }
 
 header{
-    height: 100%;
+    height: 0%;
+    margin: 0px 0px;
     /* background-color: red; */
+    display: hidden;
 }
 
 .imageSmall{
     display: none;
 }
 
-
+.imageSection{
+    margin-top:-5px;
+}
 img.imagesb{
     position: relative;
     margin: 100px;
@@ -153,10 +202,11 @@ h2{
     justify-content:center;
     /* align-items: center; */
     /* margin: auto; */
-    margin-top: -550px;
+    margin-top: -590px;
     /* flex-direction: row; */
     flex-wrap: wrap;
     /* top: 1000px; */
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
 .groupphoto{
     display: flex;
@@ -180,7 +230,7 @@ width: 45.7rem;
 height: 35.9rem;
 font-size: 2.6rem;
 left: 16.5rem;
-top: 25.2rem;
+top: 15.2rem;
 }
 .modern{
 width: 399x;
@@ -376,7 +426,7 @@ h2.skillhead{
     /* 13183F */
     font-size: 2.2rem;
     
-    color: #13183F;
+    color: white;
 }
 
 footer{
@@ -730,12 +780,12 @@ color: #FFA7C3;
         position: relative;
         /* margin: 100px; */
         overflow-x: hidden;
-        top: -650px;
+        top: -700px;
         /* margin-bottom: -1400px; */
         /* max-width: 10%; */
         left: 230px;
-         width:650px;
-        height: 650px; 
+         width:620px;
+        height: 620px; 
     }
 
     .imageSmall{
